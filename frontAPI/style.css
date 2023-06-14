@@ -1,0 +1,37 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+main {
+    padding: 150px;
+}
+
+main .listagem_galpao {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cards {
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;    
+    border-style:solid;
+    border-width:2px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cards:hover {
+    background-color: rgb(180.198.231);
+}
